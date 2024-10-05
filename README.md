@@ -29,9 +29,12 @@ The chatbot is powered by a dataset stored in a JSON file (intents.json), contai
 Tag: Represents the intent.
 Patterns: Sample user queries.
 Responses: Possible replies to the queries.
-Example:
+**Example:******
+
 JSON
 Copy code
+
+
 {
   "intents": [
     {
@@ -46,6 +49,8 @@ Copy code
     }
   ]
 }
+
+
 **Project Structure**
 Preprocessing: User inputs are cleaned, tokenized, and lemmatized to create numerical vectors.
 Model Training: A neural network is trained on the processed data to classify intents.
